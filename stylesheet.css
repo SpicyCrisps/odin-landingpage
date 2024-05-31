@@ -1,0 +1,25 @@
+#header-parent, .top-body, .footer-body
+{
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-content
+{
+    margin: 0%;
+    text-align: right;
+    
+}
+
+button
+{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.leg-body
+{
+    background-color: #E5E7EB;
+}
