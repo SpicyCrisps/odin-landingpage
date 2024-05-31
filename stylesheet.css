@@ -3,6 +3,11 @@
     background-color: #1f2937;
     color: white;
 }
+#header-logo
+{
+    color: #F9FAF8;
+    font-size: 24px;
+}
 
 .header-content
 {
@@ -11,6 +16,12 @@
     
 }
 
+#torso-body-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 button
 {
     background-color: #3882F6;
@@ -21,5 +32,21 @@ button
 
 .leg-body
 {
+    text-align: center;
+    padding: 100px;
     background-color: #E5E7EB;
+}
+
+.footer-body{
+    text-align: center;
+    padding: 15px;
+}
+
+p.flex-box
+{
+    flex: 1;
+    flex-flow: column;
+    align-content: center;
+    display: flex;
+    border: 8px solid #3882F6;
 }
