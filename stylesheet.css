@@ -1,27 +1,94 @@
-#header-parent, .top-body, .footer-body
+*
+{
+    margin:0;
+    padding:0;
+    outline: 2px #7eeb25 solid;
+}
+
+body
 {
     background-color: #1f2937;
-    color: white;
-}
-#header-logo
-{
-    color: #F9FAF8;
-    font-size: 24px;
 }
 
-.header-content
+.flex-container
 {
-    margin: 0%;
-    text-align: right;
-    
+    display:flex;
 }
 
-#torso-body-text{
-    text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
+#flex-hero-child-left
+{
+    flex: 1;
 }
+
+#flex-hero-child-middle
+{
+    height: 300px;
+    flex: 1;
+}
+
+#flex-hero-child-right
+{
+    flex: 1;
+}
+
+#flex-center-child-left
+{
+    background-color: red;
+    flex: 1;
+}
+
+#flex-center-child-middle
+{
+    height: 350px;
+    background-color: aqua;
+    flex: 1;
+}
+
+#flex-center-child-right
+{
+    background-color: blue;
+    flex: 1;
+}
+
+
+#flex-quote-child-left
+{
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+#flex-quote-child-middle
+{
+    height: 325px;
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+#flex-quote-child-right
+{
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+#flex-cta-child-left
+{
+    background-color: red;
+    flex: 1;
+}
+
+#flex-cta-child-middle
+{
+    height: 275px;
+    background-color: aqua;
+    flex: 1;
+}
+
+#flex-cta-child-right
+{
+    background-color: blue;
+    flex: 1;
+}
+
 button
 {
     background-color: #3882F6;
@@ -30,23 +97,9 @@ button
     border-radius: 40px;
 }
 
-.leg-body
+footer
 {
+    height: 60px;
+    color: white;
     text-align: center;
-    padding: 100px;
-    background-color: #E5E7EB;
-}
-
-.footer-body{
-    text-align: center;
-    padding: 15px;
-}
-
-p.flex-box
-{
-    flex: 1;
-    flex-flow: column;
-    align-content: center;
-    display: flex;
-    border: 8px solid #3882F6;
 }
