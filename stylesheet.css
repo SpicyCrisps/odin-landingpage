@@ -2,7 +2,7 @@
 {
     margin:0;
     padding:0;
-    outline: 2px #7eeb25 solid;
+    outline: 0px #7eeb25 solid;
 }
 
 body
@@ -33,20 +33,31 @@ body
 
 #flex-center-child-left
 {
-    background-color: red;
+    background-color: white;
     flex: 1;
 }
 
 #flex-center-child-middle
 {
+    background-color: white;
     height: 350px;
-    background-color: aqua;
     flex: 1;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.flex-img
+{
+    width: 15%;
+    height: auto;
+    outline: 4px blue solid;
 }
 
 #flex-center-child-right
 {
-    background-color: blue;
+    background-color: white;
     flex: 1;
 }
 
@@ -62,6 +73,9 @@ body
     height: 325px;
     background-color: #E5E7EB;
     flex: 1;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 
 #flex-quote-child-right
@@ -72,29 +86,41 @@ body
 
 #flex-cta-child-left
 {
-    background-color: red;
+    background-color: white;
     flex: 1;
 }
 
 #flex-cta-child-middle
 {
     height: 275px;
-    background-color: aqua;
+    background-color: white;
     flex: 1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 #flex-cta-child-right
 {
-    background-color: blue;
+    background-color: white;
     flex: 1;
+}
+
+#cta-box
+{
+    height: 125px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
 }
 
 button
 {
     background-color: #3882F6;
     color: white;
-    border: none;
-    border-radius: 40px;
+    border-color: white;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 footer
